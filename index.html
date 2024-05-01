@@ -98,6 +98,31 @@
 				<td><img src="pictures/three_sleeper_room_2.jpeg" alt="Three sleeper room" class="image"></td>
 			</tr>
 		</table>
+
+		<h2>Enquiries</h2>
+		<form action="mailto:31roosstreet@gmail.com" method="post" enctype="text/plain">
+			<div style="padding: 20px; border-bottom: 1px solid #ccc; font-family: 'Little', sans-serif; font-size: 24px;">
+				<div style="display: flex; flex-wrap: wrap; background-image: url('clipart/whimsical-beach-hut-block-print.jpg'); background-size: 200px 200px; background-position: right 10px top 50%; background-repeat: no-repeat;">
+					<div style="display: flex; flex-direction: column; margin-right: 20px;">
+						<label for="start-date">Start Date:</label>
+						<input type="date" id="start-date" name="start-date" style="padding: 10px; margin: 10px 0;">
+					</div>
+					<div style="display: flex; flex-direction: column; margin-right: 20px;">
+						<label for="end-date">End Date:</label>
+						<input type="date" id="end-date" name="end-date" style="padding: 10px; margin: 10px 0;">
+					</div>
+					<div style="display: flex; flex-direction: column;">
+						<label for="num-people">Number of People:</label>
+						<input type="number" id="num-people" name="num-people" value="4" style="padding: 10px; margin: 10px 0;">
+					</div>
+				</div>
+				<div style="margin-top: 20px;">
+					<label for="message">Message:</label>
+					<textarea id="message" name="message" style="width: 100%; padding: 10px; margin: 10px 0; height: 100px;"></textarea>
+				</div>
+				<input type="submit" value="Send Enquiry" style="width: 100%; padding: 10px; margin: 10px 0; background-color: #4CAF50; color: #fff; border: none; border-radius: 5px; cursor: pointer;">
+			</div>
+		</form>
 	</div>
 </body>
 </html>
